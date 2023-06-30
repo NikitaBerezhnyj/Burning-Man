@@ -1,0 +1,70 @@
+body{
+    font-family: 'Anton', sans-serif;
+}
+.hero-section{
+    background: url(../img/header-bg.svg) 50% 50% no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+.navbar-light, .navbar-nav, .nav-link{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.1em;
+    transition: .5s;
+}
+.navbar-light, .navbar-nav, .nav-link:hover{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    letter-spacing: 0.1em;
+    transition: .5s;
+}
+.navbar-toggler-btn{
+    background-color: #FFFFFF;
+}
+.hero-content h2{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    letter-spacing: 0.1em;
+}
+.hero-content h1{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 6.25rem;
+    line-height: 9.5rem;
+}
+.hero-content a{
+    display: inline-block;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.1em;
+    border: 1px solid #FFFFFF;
+    padding: 23px 18px;
+}
+.about-content h3{
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    margin-bottom: 19px;
+}
+.about-content p{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-bottom: 113px;
+}
+.footer-txt p{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.25rem;
+}
